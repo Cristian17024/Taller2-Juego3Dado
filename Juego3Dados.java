@@ -17,7 +17,6 @@ public class Juego3Dados {
         verificar();
     }
 
-    // alias según UML
     public void tirar(){ lanzar(); }
 
     public int sumar(){ return dado1.getValor() + dado2.getValor() + dado3.getValor(); }

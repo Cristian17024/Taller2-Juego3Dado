@@ -4,7 +4,7 @@ public class Jugador {
     private String nombre;
     private int puntos;
     private int rondasGanadas;
-    private int juegosGanados; // agregado según UML
+    private int juegosGanados;
 
     public Jugador(String nombre){
         this.nombre = nombre;

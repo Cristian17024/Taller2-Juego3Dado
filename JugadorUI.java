@@ -25,7 +25,6 @@ public class JugadorUI extends VBox {
         puntosLabel.setText("Puntos: " + jugador.getPuntos());
     }
 
-    // alias según UML
     public void updatePuntos(int puntos){
         jugador.setPuntos(puntos);
         actualizar();

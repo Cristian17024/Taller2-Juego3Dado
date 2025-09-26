@@ -63,7 +63,6 @@ public class ManejadorJuego {
         }
     }
 
-    // métodos extendidos (placeholders, no cambian funcionamiento actual)
     public void iniciarRonda(){ }
     public void jugar(){ }
     public void verificar(){ }

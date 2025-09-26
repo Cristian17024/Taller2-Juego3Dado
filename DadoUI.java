@@ -4,7 +4,7 @@ import javafx.scene.control.Label;
 import javafx.scene.text.Font;
 
 public class DadoUI extends Label {
-    private static final int EMOJI_DADO = 9855; // base 🎲
+    private static final int EMOJI_DADO = 9855;
 
     public DadoUI(){
         setFont(new Font("Arial", 60));
@@ -16,7 +16,6 @@ public class DadoUI extends Label {
         setText(emoji);
     }
 
-    // alias según UML
     public void cambiarEmojis(int valor){
         cambiarEmoji(valor);
     }
