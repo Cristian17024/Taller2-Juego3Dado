@@ -58,11 +58,39 @@ public class ManejadorJuego {
         if (empate) {
             System.out.println("\nEl juego terminó en EMPATE con " + ganador.getPuntos() + " puntos.");
         } else {
-            System.out.println("\nEl ganador es: " + ganador.getNombre() + " con " + ganador.getPuntos() + " puntos 🎉");
+            System.out.println("\nEl ganador es: " + ganador.getNombre() + " con " + ganador.getPuntos() + " puntos");
             ganador.incrementarJuegosGanados();
         }
     }
+    /*
+    public void jugar(Jugador jugador) {
+    juego3Dados.lanzar3Dados();
+    jugador.setPuntos(jugador.getPuntos() + juego3Dados.suma3Dados());
+    System.out.println(juego3Dados.misDados());
+    if (juego3Dados.gane()) {
+        jugador.incrementarRondasGanadas();
+    }
+}
+    public void jugar() {
+    Jugador jugador=null;
+        switch (turnoJugador){
+            case 0: jugador = jugador1; break;
+            case 1: jugador = jugador2; break;
+            case 2: jugador = jugador3; break;
+            case 3: jugador = jugador4; break;
+        }
 
+        juego3Dados.lanzar3Dados();
+
+        jugador.setPuntos(jugador.getPuntos()+juego3Dados.suma3Dados());
+        System.out.println(juego3Dados.misDados() );
+        if (juego3Dados.gane()) {
+            jugador.incrementarRondasGanadas();
+        }
+        turnoJugador++;
+}
+
+     */
     public void iniciarRonda(){ }
     public void jugar(){ }
     public void verificar(){ }
